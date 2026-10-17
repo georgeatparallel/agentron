@@ -170,6 +170,8 @@ Agentron includes a collection of built-in tools under the `agentron.kit` submod
 
 The built-in `agentron code` command provides a minimal coding agent implementation built using these tools.
 
+For an example of custom tools that search the web and read pages without a Parallel API key, see [Web research with Parallel MCP](examples/parallel_research.md).
+
 ## Persistence
 
 Specifying the `output` argument causes Agentron to persist session events (metadata, messages, ...) as JSONL files, written as each event completes:
